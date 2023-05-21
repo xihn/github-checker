@@ -20,9 +20,10 @@ a simple bash script that allows you to check a set list of github usernames to 
    chmod +x script.sh
    ```
 4. Enter your API in `token.txt`
-5. Run the script
+5. Run the script, replacing `listfile` with the `.txt` list of usernames and `outputfile` with the `.txt` the name of the output list. 
 
    ```sh
-   ./checker.sh
+   ./checker.sh listfile outputfile
    ```
+
 
